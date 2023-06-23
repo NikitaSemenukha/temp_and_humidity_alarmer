@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Real-Time Charts</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        body {
+            background-color: rgb(197, 223, 238);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 1em;
+            box-shadow: 5px 8px 8px 8px #888888;
+            padding: 15px;
+            background-color: rgb(250, 248, 248);
+        }
+
+        .container>div div {
+            display: flex;
+            justify-content: center;
+        }
+
+        #infoContainer {
+            min-height: 200px;
+        }
+
+        .navbar {
+            background-color: rgb(145, 204, 255);
+            padding: 15px;
+        }
+
+        .navbar-brand {
+            margin-left: 15px;
+        }
+
+        .btn-group label {
+            background-color: rgb(39, 138, 177);
+            border: none;
+            box-shadow: 1px 3px 2px #888888;
+            padding: 0.3rem 0.5rem;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-group label:hover {
+            background-color: rgb(97, 183, 253);
+        }
+
+        .btn-group input[type="radio"]:checked+label {
+            background-color: rgb(0, 74, 104);
+        }
+
+        .wrapper {
+            background-color: rgb(197, 223, 238);
+            padding-bottom: 24px;
+            min-width: 350px;
+            min-height: 1000px;
+        }
+
+        .changeFont {
+            font-size: 2.5rem;
+        }
+
+        /* Media Queries */
+        @media only screen and (max-width: 768px) {
+            .changeFont {
+                font-size: 2rem;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .changeFont {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            .changeFont {
+                font-size: 1.5rem;
+            }
+
+            .btn-group label {
+                padding: 0.25rem 0.3rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Real-Time Charts</h1>
+        <div class="chart-options">
+            <div class="form-group">
+                <label for="chart-type-select">Chart Type:</label>
+                <select id="chart-type-select" class="form-control">
+                    <option value="realtime">Real-Time</option>
+                    <option value="history">History</option>
+                </select>
+            </div>
+        </div>
+        <div class="charts">
+            <div>
+                <canvas id="temperature-chart" width="700" height="300"></canvas>
+            </div>
+            <div>
+                <canvas id="humidity-chart" width="700" height="300"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Глобальные переменные для хранения данных и графиков
+        let temperatureData = [];
+        let humidityData = [];
+        let temperatureChart, humidityChart;
+
+        function initCharts() {
+            if (temperatureChart) {
+                temperatureChart.destroy();
+            }
+            if (humidityChart) {
+                humidityChart.destroy();
+            }
+
+            const temperatureCtx = document.getElementById('temperature-chart').getContext('2d');
+            temperatureChart = new Chart(temperatureCtx, {
+                type: 'line',
+                data: {
+                    datasets: [{
+                        label: 'Temperature',
+                        borderColor: 'red',
+                        backgroundColor: 'rgba(255, 0, 0, 0.2)',
+                        fill: true,
+                        data: temperatureData
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    elements: {
+                        line: {
+                            tension: 0 // Отключаем сглаживание линии
+                        }
+                    },
+                    scales: {
+                        x: {
+                            type: 'linear',
+                            display: false // Скрываем метки времени на оси x
+                        },
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            const humidityCtx = document.getElementById('humidity-chart').getContext('2d');
+            humidityChart = new Chart(humidityCtx, {
+                type: 'line',
+                data: {
+                    datasets: [{
+                        label: 'Humidity',
+                        borderColor: 'blue',
+                        backgroundColor: 'rgba(0, 0, 255, 0.2)',
+                        fill: true,
+                        data: humidityData
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    elements: {
+                        line: {
+                            tension: 0 // Отключаем сглаживание линии
+                        }
+                    },
+                    scales: {
+                        x: {
+                            type: 'linear',
+                            display: false // Скрываем метки времени на оси x
+                        },
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        // Функция для обновления данных и графиков в режиме Real-Time
+        function updateRealtimeCharts() {
+            setInterval(async () => {
+                try {
+                    const response = await axios.get('http://localhost:3000/latest-data');
+                    const data = response.data;
+
+                    if (!temperatureChart) {
+                        // Инициализируем графики при первом получении данных
+                        initCharts();
+                    }
+
+                    // Обновляем данные и графики
+                    updateCharts(data);
+                } catch (error) {
+                    console.log(error);
+                    // Обработка ошибки
+                }
+            }, 5000);
+        }
+
+        // Функция для обновления данных и графиков в режиме History
+        function updateHistoryCharts() {
+            axios.get('http://localhost:3000/history-data')
+                .then(response => {
+                    const data = response.data;
+
+                    if (!temperatureChart) {
+                        // Инициализируем графики при первом получении данных
+                        initCharts();
+                    }
+
+                    // Обновляем данные и графики
+                    updateCharts(data);
+                })
+                .catch(error => {
+                    console.log(error);
+                    // Обработка ошибки
+                });
+        }
+
+        // Функция для обновления данных и графиков
+        function updateCharts(data) {
+            if (Array.isArray(data)) {
+                // Обновление данных для графика History
+                // Очищаем предыдущие данные
+                temperatureData = [];
+                humidityData = [];
+
+                // Обрабатываем полученные данные
+                for (let i = 0; i < data.length; i++) {
+                    const temperature = data[i].temperature;
+                    const humidity = data[i].humidity;
+                    const timestamp = new Date(data[i].createdAt).getTime();
+
+                    temperatureData.push({
+                        x: timestamp,
+                        y: temperature
+                    });
+
+                    humidityData.push({
+                        x: timestamp,
+                        y: humidity
+                    });
+                }
+
+                // Ограничение количества точек на графике
+                const maxDataPoints = 100;
+                if (temperatureData.length > maxDataPoints) {
+                    temperatureData = temperatureData.slice(temperatureData.length - maxDataPoints);
+                }
+                if (humidityData.length > maxDataPoints) {
+                    humidityData = humidityData.slice(humidityData.length - maxDataPoints);
+                }
+
+                // Обновляем графики History
+                temperatureChart.data.datasets[0].data = temperatureData;
+                humidityChart.data.datasets[0].data = humidityData;
+                temperatureChart.update();
+                humidityChart.update();
+            } else {
+                // Обновление данных для графика Real-Time
+                const temperature = data.temperature;
+                const humidity = data.humidity;
+                const timestamp = Date.now();
+
+                temperatureData.push({
+                    x: timestamp,
+                    y: temperature
+                });
+
+                humidityData.push({
+                    x: timestamp,
+                    y: humidity
+                });
+
+                // Ограничение количества точек на графике
+                const maxDataPoints = 100;
+                if (temperatureData.length > maxDataPoints) {
+                    temperatureData.shift();
+                }
+                if (humidityData.length > maxDataPoints) {
+                    humidityData.shift();
+                }
+
+                // Обновляем графики Real-Time
+                temperatureChart.update();
+                humidityChart.update();
+            }
+        }
+
+
+        // Обработчик события изменения значения в выпадающем списке
+        document.getElementById('chart-type-select').addEventListener('change', function () {
+            const selectedValue = this.value;
+
+            if (selectedValue === 'realtime') {
+                // Вариант "Real-Time" выбран
+                clearInterval(historyInterval);
+                updateRealtimeCharts();
+            } else if (selectedValue === 'history') {
+                // Вариант "History" выбран
+                clearInterval(realtimeInterval);
+                updateHistoryCharts();
+            }
+        });
+
+        let realtimeInterval, historyInterval;
+
+        // Запускаем обновление данных и графиков в режиме Real-Time
+        realtimeInterval = setInterval(updateRealtimeCharts, 5000);
+    </script>
+</body>
+
+</html>

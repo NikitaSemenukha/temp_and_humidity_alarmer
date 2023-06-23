@@ -1,290 +1,954 @@
 [
   {
-    "temperature": 15,
-    "humidity": 67,
-    "temperatureStatus": "normal",
-    "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:37:35.129Z"
-  },
-
-  {
-    "temperature": 17,
-    "humidity": 63,
-    "temperatureStatus": "normal",
-    "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:37:40.142Z"
-  },
-
-  {
-    "temperature": 7,
-    "humidity": 71,
-    "temperatureStatus": "normal",
-    "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:37:45.157Z"
-  },
-
-  {
-    "temperature": 62,
-    "humidity": 1,
-    "temperatureStatus": "critical",
-    "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:37:50.170Z"
-  },
-
-  {
-    "temperature": 51,
-    "humidity": 30,
-    "temperatureStatus": "critical",
-    "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:37:55.209Z"
-  },
-
-  {
-    "temperature": 81,
-    "humidity": 78,
-    "temperatureStatus": "critical",
-    "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:38:00.223Z"
-  },
-
-  {
-    "temperature": 77,
-    "humidity": 47,
-    "temperatureStatus": "critical",
-    "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:38:05.237Z"
-  },
-
-  {
-    "temperature": 46,
-    "humidity": 93,
-    "temperatureStatus": "pre-critical",
-    "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:38:10.244Z"
-  },
-
-  {
-    "temperature": 41,
-    "humidity": 67,
-    "temperatureStatus": "pre-critical",
-    "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:38:15.244Z"
-  },
-
-  {
-    "temperature": 32,
-    "humidity": 47,
-    "temperatureStatus": "normal",
-    "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:38:20.252Z"
-  },
-
-  {
     "temperature": 67,
-    "humidity": 94,
-    "temperatureStatus": "critical",
-    "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:38:25.266Z"
-  },
-
-  {
-    "temperature": 52,
-    "humidity": 93,
-    "temperatureStatus": "critical",
-    "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:38:30.278Z"
-  },
-
-  {
-    "temperature": 51,
-    "humidity": 4,
-    "temperatureStatus": "critical",
-    "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:38:35.287Z"
-  },
-
-  {
-    "temperature": 14,
-    "humidity": 62,
-    "temperatureStatus": "normal",
-    "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:38:40.288Z"
-  },
-
-  {
-    "temperature": 10,
-    "humidity": 18,
-    "temperatureStatus": "normal",
-    "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:38:45.290Z"
-  },
-
-  {
-    "temperature": 88,
-    "humidity": 36,
-    "temperatureStatus": "critical",
-    "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:38:50.297Z"
-  },
-
-  {
-    "temperature": 83,
-    "humidity": 41,
+    "humidity": 58,
     "temperatureStatus": "critical",
     "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:38:55.310Z"
-  },
-
-  {
-    "temperature": 22,
-    "humidity": 90,
-    "temperatureStatus": "normal",
-    "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:39:00.317Z"
-  },
-
-  {
-    "temperature": 58,
-    "humidity": 1,
-    "temperatureStatus": "critical",
-    "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:39:05.326Z"
-  },
-
-  {
-    "temperature": 82,
-    "humidity": 87,
-    "temperatureStatus": "critical",
-    "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:39:10.334Z"
+    "createdAt": "2023-06-23T11:41:38.846Z"
   },
 
   {
     "temperature": 78,
-    "humidity": 94,
+    "humidity": 46,
     "temperatureStatus": "critical",
-    "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:39:15.339Z"
-  },
-
-  {
-    "temperature": 43,
-    "humidity": 65,
-    "temperatureStatus": "pre-critical",
     "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:39:20.340Z"
+    "createdAt": "2023-06-23T11:41:45.119Z"
   },
 
   {
-    "temperature": 6,
-    "humidity": 43,
-    "temperatureStatus": "normal",
-    "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:39:25.353Z"
-  },
-
-  {
-    "temperature": 81,
-    "humidity": 30,
+    "temperature": 75,
+    "humidity": 4,
     "temperatureStatus": "critical",
     "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:39:30.392Z"
+    "createdAt": "2023-06-23T11:41:50.136Z"
   },
 
   {
-    "temperature": 56,
-    "humidity": 75,
+    "temperature": 64,
+    "humidity": 71,
     "temperatureStatus": "critical",
     "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:39:35.399Z"
+    "createdAt": "2023-06-23T11:41:55.141Z"
   },
 
   {
-    "temperature": 89,
-    "humidity": 64,
+    "temperature": 62,
+    "humidity": 49,
     "temperatureStatus": "critical",
     "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:39:40.416Z"
+    "createdAt": "2023-06-23T11:42:00.165Z"
   },
 
   {
-    "temperature": 6,
+    "temperature": 94,
+    "humidity": 1,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:42:05.180Z"
+  },
+
+  {
+    "temperature": 11,
     "humidity": 100,
     "temperatureStatus": "normal",
     "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:39:45.418Z"
+    "createdAt": "2023-06-23T11:42:10.193Z"
+  },
+
+  {
+    "temperature": 96,
+    "humidity": 15,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:42:15.215Z"
+  },
+
+  {
+    "temperature": 7,
+    "humidity": 91,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:42:20.222Z"
+  },
+
+  {
+    "temperature": 69,
+    "humidity": 6,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:42:25.226Z"
+  },
+
+  {
+    "temperature": 62,
+    "humidity": 73,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:42:30.234Z"
+  },
+
+  {
+    "temperature": 35,
+    "humidity": 100,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:42:35.251Z"
+  },
+
+  {
+    "temperature": 63,
+    "humidity": 56,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:42:40.260Z"
+  },
+
+  {
+    "temperature": 4,
+    "humidity": 9,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:42:45.266Z"
+  },
+
+  {
+    "temperature": 84,
+    "humidity": 83,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:42:50.282Z"
+  },
+
+  {
+    "temperature": 15,
+    "humidity": 94,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:42:55.303Z"
+  },
+
+  {
+    "temperature": 36,
+    "humidity": 37,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:43:00.313Z"
+  },
+
+  {
+    "temperature": 61,
+    "humidity": 68,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:43:05.330Z"
+  },
+
+  {
+    "temperature": 57,
+    "humidity": 44,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:43:10.341Z"
+  },
+
+  {
+    "temperature": 9,
+    "humidity": 75,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:43:15.343Z"
+  },
+
+  {
+    "temperature": 32,
+    "humidity": 14,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:43:20.391Z"
   },
 
   {
     "temperature": 90,
-    "humidity": 7,
-    "temperatureStatus": "critical",
-    "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:39:50.426Z"
-  },
-
-  {
-    "temperature": 93,
-    "humidity": 27,
-    "temperatureStatus": "critical",
-    "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:39:55.431Z"
-  },
-
-  {
-    "temperature": 31,
-    "humidity": 36,
-    "temperatureStatus": "normal",
-    "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:40:00.440Z"
-  },
-
-  {
-    "temperature": 60,
-    "humidity": 56,
-    "temperatureStatus": "critical",
-    "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:40:05.442Z"
-  },
-
-  {
-    "temperature": 73,
-    "humidity": 81,
+    "humidity": 96,
     "temperatureStatus": "critical",
     "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:40:10.449Z"
+    "createdAt": "2023-06-23T11:43:25.485Z"
   },
 
   {
-    "temperature": 3,
-    "humidity": 58,
+    "temperature": 43,
+    "humidity": 11,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:43:30.493Z"
+  },
+
+  {
+    "temperature": 58,
+    "humidity": 2,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:43:35.499Z"
+  },
+
+  {
+    "temperature": 4,
+    "humidity": 1,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:43:40.507Z"
+  },
+
+  {
+    "temperature": 94,
+    "humidity": 68,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:43:45.520Z"
+  },
+
+  {
+    "temperature": 94,
+    "humidity": 13,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:43:50.522Z"
+  },
+
+  {
+    "temperature": 14,
+    "humidity": 12,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:43:55.530Z"
+  },
+
+  {
+    "temperature": 90,
+    "humidity": 92,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:44:00.535Z"
+  },
+
+  {
+    "temperature": 11,
+    "humidity": 64,
     "temperatureStatus": "normal",
     "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:40:15.457Z"
+    "createdAt": "2023-06-23T11:44:05.545Z"
+  },
+
+  {
+    "temperature": 20,
+    "humidity": 14,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:44:10.559Z"
+  },
+
+  {
+    "temperature": 45,
+    "humidity": 92,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:44:15.561Z"
+  },
+
+  {
+    "temperature": 24,
+    "humidity": 79,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:44:20.573Z"
+  },
+
+  {
+    "temperature": 59,
+    "humidity": 4,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:44:25.576Z"
+  },
+
+  {
+    "temperature": 77,
+    "humidity": 25,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:44:30.647Z"
+  },
+
+  {
+    "temperature": 24,
+    "humidity": 6,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:44:35.667Z"
+  },
+
+  {
+    "temperature": 45,
+    "humidity": 36,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:44:40.682Z"
+  },
+
+  {
+    "temperature": 41,
+    "humidity": 33,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:44:45.694Z"
+  },
+
+  {
+    "temperature": 85,
+    "humidity": 30,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:44:50.709Z"
+  },
+
+  {
+    "temperature": 63,
+    "humidity": 41,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:44:55.723Z"
+  },
+
+  {
+    "temperature": 97,
+    "humidity": 26,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:45:00.736Z"
+  },
+
+  {
+    "temperature": 65,
+    "humidity": 9,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:45:05.746Z"
+  },
+
+  {
+    "temperature": 34,
+    "humidity": 52,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:45:10.750Z"
+  },
+
+  {
+    "temperature": 42,
+    "humidity": 99,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:45:15.762Z"
+  },
+
+  {
+    "temperature": 29,
+    "humidity": 3,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:45:20.766Z"
+  },
+
+  {
+    "temperature": 75,
+    "humidity": 96,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:45:25.792Z"
+  },
+
+  {
+    "temperature": 17,
+    "humidity": 74,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:45:30.806Z"
+  },
+
+  {
+    "temperature": 76,
+    "humidity": 50,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:45:35.813Z"
+  },
+
+  {
+    "temperature": 89,
+    "humidity": 65,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:45:40.822Z"
+  },
+
+  {
+    "temperature": 27,
+    "humidity": 84,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:45:45.829Z"
+  },
+
+  {
+    "temperature": 95,
+    "humidity": 47,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:45:50.830Z"
   },
 
   {
     "temperature": 6,
-    "humidity": 77,
+    "humidity": 36,
     "temperatureStatus": "normal",
-    "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:40:20.503Z"
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:45:55.842Z"
   },
 
   {
-    "temperature": 52,
-    "humidity": 38,
+    "temperature": 46,
+    "humidity": 17,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:46:00.858Z"
+  },
+
+  {
+    "temperature": 18,
+    "humidity": 82,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:46:05.871Z"
+  },
+
+  {
+    "temperature": 90,
+    "humidity": 5,
     "temperatureStatus": "critical",
     "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:40:25.508Z"
+    "createdAt": "2023-06-23T11:46:10.886Z"
+  },
+
+  {
+    "temperature": 30,
+    "humidity": 38,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:46:15.891Z"
+  },
+
+  {
+    "temperature": 83,
+    "humidity": 36,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:46:20.901Z"
+  },
+
+  {
+    "temperature": 5,
+    "humidity": 64,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:46:25.913Z"
+  },
+
+  {
+    "temperature": 6,
+    "humidity": 50,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:46:30.922Z"
+  },
+
+  {
+    "temperature": 1,
+    "humidity": 27,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:46:35.929Z"
+  },
+
+  {
+    "temperature": 47,
+    "humidity": 6,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:46:40.942Z"
+  },
+
+  {
+    "temperature": 1,
+    "humidity": 7,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:46:45.949Z"
+  },
+
+  {
+    "temperature": 37,
+    "humidity": 99,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:46:50.950Z"
+  },
+
+  {
+    "temperature": 71,
+    "humidity": 63,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:46:55.958Z"
+  },
+
+  {
+    "temperature": 21,
+    "humidity": 42,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:47:00.975Z"
+  },
+
+  {
+    "temperature": 94,
+    "humidity": 78,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:47:05.977Z"
+  },
+
+  {
+    "temperature": 27,
+    "humidity": 77,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:47:10.983Z"
+  },
+
+  {
+    "temperature": 64,
+    "humidity": 56,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:47:15.991Z"
+  },
+
+  {
+    "temperature": 3,
+    "humidity": 85,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:47:20.997Z"
+  },
+
+  {
+    "temperature": 15,
+    "humidity": 14,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:47:26.030Z"
+  },
+
+  {
+    "temperature": 36,
+    "humidity": 20,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:47:31.042Z"
+  },
+
+  {
+    "temperature": 67,
+    "humidity": 51,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:47:36.046Z"
+  },
+
+  {
+    "temperature": 30,
+    "humidity": 30,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:47:41.351Z"
+  },
+
+  {
+    "temperature": 26,
+    "humidity": 88,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:47:46.448Z"
+  },
+
+  {
+    "temperature": 7,
+    "humidity": 24,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:47:51.519Z"
+  },
+
+  {
+    "temperature": 97,
+    "humidity": 50,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:47:56.569Z"
+  },
+
+  {
+    "temperature": 29,
+    "humidity": 93,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:48:01.575Z"
+  },
+
+  {
+    "temperature": 71,
+    "humidity": 80,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:48:06.590Z"
+  },
+
+  {
+    "temperature": 34,
+    "humidity": 46,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:48:11.592Z"
+  },
+
+  {
+    "temperature": 56,
+    "humidity": 15,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:48:16.599Z"
+  },
+
+  {
+    "temperature": 48,
+    "humidity": 25,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:48:21.605Z"
+  },
+
+  {
+    "temperature": 58,
+    "humidity": 44,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:48:26.610Z"
+  },
+
+  {
+    "temperature": 7,
+    "humidity": 86,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:48:31.642Z"
+  },
+
+  {
+    "temperature": 18,
+    "humidity": 54,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:48:36.655Z"
+  },
+
+  {
+    "temperature": 42,
+    "humidity": 50,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:48:41.669Z"
+  },
+
+  {
+    "temperature": 44,
+    "humidity": 94,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:48:46.673Z"
+  },
+
+  {
+    "temperature": 81,
+    "humidity": 18,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:48:51.684Z"
+  },
+
+  {
+    "temperature": 1,
+    "humidity": 3,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:48:56.691Z"
+  },
+
+  {
+    "temperature": 67,
+    "humidity": 100,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:49:01.707Z"
+  },
+
+  {
+    "temperature": 78,
+    "humidity": 14,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:49:06.709Z"
+  },
+
+  {
+    "temperature": 8,
+    "humidity": 61,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:49:11.786Z"
+  },
+
+  {
+    "temperature": 15,
+    "humidity": 63,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:49:16.788Z"
+  },
+
+  {
+    "temperature": 97,
+    "humidity": 73,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:49:21.850Z"
+  },
+
+  {
+    "temperature": 15,
+    "humidity": 59,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:49:26.939Z"
+  },
+
+  {
+    "temperature": 44,
+    "humidity": 18,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:49:31.939Z"
+  },
+
+  {
+    "temperature": 97,
+    "humidity": 61,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:49:36.944Z"
+  },
+
+  {
+    "temperature": 73,
+    "humidity": 37,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:49:41.951Z"
+  },
+
+  {
+    "temperature": 9,
+    "humidity": 6,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:49:46.952Z"
+  },
+
+  {
+    "temperature": 6,
+    "humidity": 15,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:49:51.956Z"
+  },
+
+  {
+    "temperature": 28,
+    "humidity": 76,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:49:56.971Z"
+  },
+
+  {
+    "temperature": 7,
+    "humidity": 96,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:50:01.978Z"
+  },
+
+  {
+    "temperature": 40,
+    "humidity": 44,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:50:06.980Z"
+  },
+
+  {
+    "temperature": 89,
+    "humidity": 54,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:50:11.986Z"
+  },
+
+  {
+    "temperature": 97,
+    "humidity": 59,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:50:16.998Z"
+  },
+
+  {
+    "temperature": 43,
+    "humidity": 91,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:50:21.999Z"
+  },
+
+  {
+    "temperature": 95,
+    "humidity": 55,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:50:27.001Z"
   },
 
   {
     "temperature": 16,
-    "humidity": 18,
+    "humidity": 1,
     "temperatureStatus": "normal",
     "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:40:30.529Z"
+    "createdAt": "2023-06-23T11:50:32.015Z"
+  },
+
+  {
+    "temperature": 65,
+    "humidity": 49,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:50:37.017Z"
+  },
+
+  {
+    "temperature": 57,
+    "humidity": 46,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:50:42.020Z"
+  },
+
+  {
+    "temperature": 62,
+    "humidity": 11,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:50:47.029Z"
+  },
+
+  {
+    "temperature": 35,
+    "humidity": 62,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:50:52.039Z"
+  },
+
+  {
+    "temperature": 4,
+    "humidity": 21,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:50:57.052Z"
+  },
+
+  {
+    "temperature": 2,
+    "humidity": 81,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:51:02.065Z"
+  },
+
+  {
+    "temperature": 5,
+    "humidity": 26,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:51:07.067Z"
+  },
+
+  {
+    "temperature": 84,
+    "humidity": 45,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:51:12.075Z"
+  },
+
+  {
+    "temperature": 68,
+    "humidity": 43,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:51:17.087Z"
+  },
+
+  {
+    "temperature": 74,
+    "humidity": 1,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:51:22.091Z"
+  },
+
+  {
+    "temperature": 61,
+    "humidity": 39,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:51:27.099Z"
+  },
+
+  {
+    "temperature": 30,
+    "humidity": 6,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:51:32.105Z"
   },
 
   {
@@ -292,86 +956,734 @@
     "humidity": 62,
     "temperatureStatus": "critical",
     "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:40:35.534Z"
+    "createdAt": "2023-06-23T11:51:37.105Z"
   },
 
   {
-    "temperature": 17,
-    "humidity": 15,
+    "temperature": 14,
+    "humidity": 78,
     "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:51:42.120Z"
+  },
+
+  {
+    "temperature": 51,
+    "humidity": 68,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:51:47.123Z"
+  },
+
+  {
+    "temperature": 50,
+    "humidity": 21,
+    "temperatureStatus": "pre-critical",
     "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:40:40.547Z"
+    "createdAt": "2023-06-23T11:51:52.124Z"
   },
 
   {
-    "temperature": 62,
-    "humidity": 92,
-    "temperatureStatus": "critical",
-    "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:40:45.563Z"
-  },
-
-  {
-    "temperature": 68,
-    "humidity": 80,
-    "temperatureStatus": "critical",
-    "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:40:50.573Z"
-  },
-
-  {
-    "temperature": 15,
-    "humidity": 39,
+    "temperature": 9,
+    "humidity": 85,
     "temperatureStatus": "normal",
-    "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:40:55.582Z"
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:51:57.134Z"
   },
 
   {
     "temperature": 47,
-    "humidity": 5,
+    "humidity": 14,
     "temperatureStatus": "pre-critical",
     "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:41:00.597Z"
+    "createdAt": "2023-06-23T11:52:02.148Z"
   },
 
   {
-    "temperature": 16,
-    "humidity": 22,
+    "temperature": 18,
+    "humidity": 82,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:52:07.148Z"
+  },
+
+  {
+    "temperature": 25,
+    "humidity": 97,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:52:12.179Z"
+  },
+
+  {
+    "temperature": 13,
+    "humidity": 44,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:52:17.212Z"
+  },
+
+  {
+    "temperature": 70,
+    "humidity": 100,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:52:22.221Z"
+  },
+
+  {
+    "temperature": 41,
+    "humidity": 6,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:52:27.234Z"
+  },
+
+  {
+    "temperature": 14,
+    "humidity": 26,
     "temperatureStatus": "normal",
     "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:41:05.605Z"
+    "createdAt": "2023-06-23T11:52:32.245Z"
   },
 
   {
-    "temperature": 76,
-    "humidity": 64,
+    "temperature": 1,
+    "humidity": 78,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:52:37.246Z"
+  },
+
+  {
+    "temperature": 64,
+    "humidity": 92,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:52:42.252Z"
+  },
+
+  {
+    "temperature": 46,
+    "humidity": 74,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:52:47.253Z"
+  },
+
+  {
+    "temperature": 18,
+    "humidity": 60,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:52:52.266Z"
+  },
+
+  {
+    "temperature": 50,
+    "humidity": 97,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:52:57.267Z"
+  },
+
+  {
+    "temperature": 97,
+    "humidity": 65,
     "temperatureStatus": "critical",
     "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:41:10.607Z"
+    "createdAt": "2023-06-23T11:53:02.271Z"
+  },
+
+  {
+    "temperature": 5,
+    "humidity": 5,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:53:07.276Z"
+  },
+
+  {
+    "temperature": 98,
+    "humidity": 16,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:53:12.277Z"
+  },
+
+  {
+    "temperature": 62,
+    "humidity": 95,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:53:17.283Z"
   },
 
   {
     "temperature": 83,
-    "humidity": 82,
+    "humidity": 3,
     "temperatureStatus": "critical",
-    "humidityStatus": "high",
-    "createdAt": "2023-06-22T22:41:15.622Z"
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:53:22.289Z"
   },
 
   {
-    "temperature": 52,
-    "humidity": 12,
+    "temperature": 48,
+    "humidity": 80,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:53:27.293Z"
+  },
+
+  {
+    "temperature": 100,
+    "humidity": 62,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:53:32.303Z"
+  },
+
+  {
+    "temperature": 28,
+    "humidity": 99,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:53:37.314Z"
+  },
+
+  {
+    "temperature": 62,
+    "humidity": 100,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:53:42.324Z"
+  },
+
+  {
+    "temperature": 58,
+    "humidity": 90,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:53:47.339Z"
+  },
+
+  {
+    "temperature": 83,
+    "humidity": 86,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:53:52.354Z"
+  },
+
+  {
+    "temperature": 45,
+    "humidity": 65,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:53:57.365Z"
+  },
+
+  {
+    "temperature": 82,
+    "humidity": 69,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:54:02.366Z"
+  },
+
+  {
+    "temperature": 5,
+    "humidity": 63,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:54:07.371Z"
+  },
+
+  {
+    "temperature": 100,
+    "humidity": 25,
     "temperatureStatus": "critical",
     "humidityStatus": "low",
-    "createdAt": "2023-06-22T22:41:20.634Z"
+    "createdAt": "2023-06-23T11:54:12.374Z"
+  },
+
+  {
+    "temperature": 85,
+    "humidity": 37,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:54:17.384Z"
+  },
+
+  {
+    "temperature": 72,
+    "humidity": 49,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:54:22.385Z"
+  },
+
+  {
+    "temperature": 81,
+    "humidity": 90,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:54:27.399Z"
+  },
+
+  {
+    "temperature": 18,
+    "humidity": 74,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:54:32.408Z"
+  },
+
+  {
+    "temperature": 91,
+    "humidity": 92,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:54:37.415Z"
+  },
+
+  {
+    "temperature": 1,
+    "humidity": 50,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:54:42.426Z"
+  },
+
+  {
+    "temperature": 12,
+    "humidity": 43,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:54:47.434Z"
+  },
+
+  {
+    "temperature": 70,
+    "humidity": 47,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:54:52.444Z"
+  },
+
+  {
+    "temperature": 71,
+    "humidity": 60,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:54:57.454Z"
+  },
+
+  {
+    "temperature": 88,
+    "humidity": 10,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:55:02.457Z"
+  },
+
+  {
+    "temperature": 42,
+    "humidity": 65,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:55:07.460Z"
+  },
+
+  {
+    "temperature": 83,
+    "humidity": 46,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:55:12.474Z"
+  },
+
+  {
+    "temperature": 81,
+    "humidity": 24,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:55:17.488Z"
+  },
+
+  {
+    "temperature": 78,
+    "humidity": 5,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:55:22.496Z"
+  },
+
+  {
+    "temperature": 26,
+    "humidity": 74,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:55:27.504Z"
+  },
+
+  {
+    "temperature": 63,
+    "humidity": 39,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:55:32.515Z"
+  },
+
+  {
+    "temperature": 74,
+    "humidity": 16,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:55:37.525Z"
+  },
+
+  {
+    "temperature": 13,
+    "humidity": 8,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:55:42.538Z"
+  },
+
+  {
+    "temperature": 13,
+    "humidity": 52,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:55:47.540Z"
+  },
+
+  {
+    "temperature": 27,
+    "humidity": 38,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:55:52.544Z"
+  },
+
+  {
+    "temperature": 39,
+    "humidity": 92,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:55:57.550Z"
+  },
+
+  {
+    "temperature": 39,
+    "humidity": 65,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:56:02.555Z"
+  },
+
+  {
+    "temperature": 24,
+    "humidity": 37,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:56:07.556Z"
+  },
+
+  {
+    "temperature": 82,
+    "humidity": 9,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:56:12.564Z"
+  },
+
+  {
+    "temperature": 100,
+    "humidity": 46,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:56:17.565Z"
+  },
+
+  {
+    "temperature": 37,
+    "humidity": 15,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:56:22.568Z"
+  },
+
+  {
+    "temperature": 95,
+    "humidity": 74,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:56:27.573Z"
+  },
+
+  {
+    "temperature": 56,
+    "humidity": 29,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:56:32.601Z"
+  },
+
+  {
+    "temperature": 45,
+    "humidity": 55,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:56:37.610Z"
+  },
+
+  {
+    "temperature": 30,
+    "humidity": 61,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:56:42.623Z"
+  },
+
+  {
+    "temperature": 40,
+    "humidity": 21,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:56:47.634Z"
+  },
+
+  {
+    "temperature": 38,
+    "humidity": 91,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:56:52.649Z"
+  },
+
+  {
+    "temperature": 85,
+    "humidity": 18,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:56:57.650Z"
+  },
+
+  {
+    "temperature": 85,
+    "humidity": 23,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:57:02.665Z"
+  },
+
+  {
+    "temperature": 22,
+    "humidity": 80,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:57:07.668Z"
+  },
+
+  {
+    "temperature": 34,
+    "humidity": 86,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:57:12.670Z"
+  },
+
+  {
+    "temperature": 48,
+    "humidity": 44,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:57:17.686Z"
+  },
+
+  {
+    "temperature": 54,
+    "humidity": 63,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:57:22.691Z"
+  },
+
+  {
+    "temperature": 97,
+    "humidity": 90,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:57:27.695Z"
+  },
+
+  {
+    "temperature": 20,
+    "humidity": 67,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:57:32.700Z"
+  },
+
+  {
+    "temperature": 40,
+    "humidity": 66,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:57:37.701Z"
+  },
+
+  {
+    "temperature": 99,
+    "humidity": 2,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:57:42.707Z"
+  },
+
+  {
+    "temperature": 75,
+    "humidity": 74,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:57:47.711Z"
+  },
+
+  {
+    "temperature": 70,
+    "humidity": 3,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:57:52.712Z"
   },
 
   {
     "temperature": 94,
-    "humidity": 65,
+    "humidity": 37,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:57:57.722Z"
+  },
+
+  {
+    "temperature": 86,
+    "humidity": 93,
+    "temperatureStatus": "critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:58:02.740Z"
+  },
+
+  {
+    "temperature": 92,
+    "humidity": 64,
     "temperatureStatus": "critical",
     "humidityStatus": "moderate",
-    "createdAt": "2023-06-22T22:41:25.645Z"
+    "createdAt": "2023-06-23T11:58:07.747Z"
+  },
+
+  {
+    "temperature": 51,
+    "humidity": 20,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:58:12.759Z"
+  },
+
+  {
+    "temperature": 2,
+    "humidity": 73,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:58:17.766Z"
+  },
+
+  {
+    "temperature": 40,
+    "humidity": 29,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:58:22.780Z"
+  },
+
+  {
+    "temperature": 11,
+    "humidity": 83,
+    "temperatureStatus": "normal",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:58:27.794Z"
+  },
+
+  {
+    "temperature": 46,
+    "humidity": 94,
+    "temperatureStatus": "pre-critical",
+    "humidityStatus": "high",
+    "createdAt": "2023-06-23T11:58:32.805Z"
+  },
+
+  {
+    "temperature": 84,
+    "humidity": 42,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:58:37.812Z"
+  },
+
+  {
+    "temperature": 81,
+    "humidity": 68,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:58:42.820Z"
+  },
+
+  {
+    "temperature": 1,
+    "humidity": 18,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:58:47.820Z"
+  },
+
+  {
+    "temperature": 69,
+    "humidity": 13,
+    "temperatureStatus": "critical",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:58:52.828Z"
+  },
+
+  {
+    "temperature": 85,
+    "humidity": 57,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:58:57.840Z"
+  },
+
+  {
+    "temperature": 9,
+    "humidity": 22,
+    "temperatureStatus": "normal",
+    "humidityStatus": "low",
+    "createdAt": "2023-06-23T11:59:02.849Z"
+  },
+
+  {
+    "temperature": 16,
+    "humidity": 45,
+    "temperatureStatus": "normal",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:59:07.860Z"
+  },
+
+  {
+    "temperature": 67,
+    "humidity": 62,
+    "temperatureStatus": "critical",
+    "humidityStatus": "moderate",
+    "createdAt": "2023-06-23T11:59:12.870Z"
   }
 ]

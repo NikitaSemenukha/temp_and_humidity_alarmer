@@ -60,6 +60,10 @@ class DataInputBuilder {
         return {};
     }
 
+    getHistoryData() {
+        return this.data;
+    }
+
     reset() {
         this.data = [];
         return this;
@@ -68,6 +72,7 @@ class DataInputBuilder {
     build() {
         return {
             getLatestData: this.getLatestData.bind(this),
+            getHistoryData: this.getHistoryData.bind(this),
             start: this.start.bind(this),
             stop: this.stop.bind(this),
             reset: this.reset.bind(this)
