@@ -6,7 +6,7 @@ const DataFetcher = require('../dataHandler/DataFetcher');
 const axios = require('axios');
 
 setInterval(() => {
-    axios.get('http://localhost:3000/history-data')
+    axios.get('http://localhost:3000/api/data?mode=history')
         .then(response => {
             const historyData = response.data;
             console.log('Received history data:');
@@ -28,25 +28,55 @@ const dataWriter = new DataWriter();
 // const dataFetcher = new DataFetcher('http://localhost:3000/latest-data', 5000);
 // dataFetcher.startFetching();
 
-app.get('/latest-data', (req, res) => {
-    const latestData = dataHandler.getLatestData();
+app.get('/api/data', async (req, res) => {
+    try {
+        const { mode } = req.query;
+        let data;
 
-    if (latestData) {
-        res.json(latestData);
-    } else {
-        res.status(204).end(); // Отправляем статус "No Content" (204)
+        if (mode === 'latest') {
+            data = await dataHandler.getLatestData();
+        } else if (mode === 'history') {
+            data = await dataHandler.getHistoryData();
+        }
+
+        if (data) {
+            res.json(data);
+        } else {
+            res.status(204).end(); // Отправляем статус "No Content" (204)
+        }
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 });
 
-app.get('/history-data', (req, res) => {
-    const historyData = dataHandler.getHistoryData();
 
-    if (historyData.length > 0) {
-        res.json(historyData);
-    } else {
-        res.status(204).end(); // Отправляем статус "No Content" (204)
+app.get('/api/data', async (req, res) => {
+    try {
+        const { mode } = req.query;
+        let historyData = [];
+        let latestData = {};
+
+        if (mode === 'latest') {
+            latestData = await dataHandler.getLatestData();
+        } else if (mode === 'history') {
+            historyData = await dataHandler.getHistoryData();
+        }
+
+        if (latestData || historyData.length > 0) {
+            if (latestData)
+                res.json(latestData);
+            else if (historyData.length > 0)
+                res.json(historyData);
+        } else {
+            res.status(204).end(); // Отправляем статус "No Content" (204)
+        }
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 });
+
 
 app.get('/charts', (req, res) => {
     const filePath = path.join(__dirname, '..', 'app', 'index.html'); // Путь к файлу index.html

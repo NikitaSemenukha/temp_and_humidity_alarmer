@@ -125,6 +125,7 @@
         let temperatureData = [];
         let humidityData = [];
         let temperatureChart, humidityChart;
+        let realtimeInterval, historyInterval;
 
         function initCharts() {
             if (temperatureChart) {
@@ -199,39 +200,17 @@
             });
         }
 
-        // Функция для обновления данных и графиков в режиме Real-Time
-        function updateRealtimeCharts() {
-            setInterval(async () => {
-                try {
-                    const response = await axios.get('http://localhost:3000/latest-data');
-                    const data = response.data;
-
-                    if (!temperatureChart) {
-                        // Инициализируем графики при первом получении данных
-                        initCharts();
-                    }
-
-                    // Обновляем данные и графики
-                    updateCharts(data);
-                } catch (error) {
-                    console.log(error);
-                    // Обработка ошибки
-                }
-            }, 5000);
-        }
-
-        // Функция для обновления данных и графиков в режиме History
         function updateHistoryCharts() {
-            axios.get('http://localhost:3000/history-data')
+            clearInterval(realtimeInterval); // Остановка интервала для режима Real-Time
+
+            axios.get('api/data?mode=history')
                 .then(response => {
                     const data = response.data;
 
                     if (!temperatureChart) {
-                        // Инициализируем графики при первом получении данных
                         initCharts();
                     }
 
-                    // Обновляем данные и графики
                     updateCharts(data);
                 })
                 .catch(error => {
@@ -240,6 +219,27 @@
                 });
         }
 
+
+        // Функция для обновления данных и графиков в режиме History
+        function updateRealtimeCharts() {
+            clearInterval(historyInterval); // Остановка интервала для режима History
+
+            realtimeInterval = setInterval(async () => {
+                try {
+                    const response = await axios.get('api/data?mode=latest');
+                    const data = response.data;
+
+                    if (!temperatureChart) {
+                        initCharts();
+                    }
+
+                    updateCharts(data);
+                } catch (error) {
+                    console.log(error);
+                    // Обработка ошибки
+                }
+            }, 5000);
+        }
         // Функция для обновления данных и графиков
         function updateCharts(data) {
             if (Array.isArray(data)) {
@@ -316,20 +316,13 @@
             const selectedValue = this.value;
 
             if (selectedValue === 'realtime') {
-                // Вариант "Real-Time" выбран
-                clearInterval(historyInterval);
                 updateRealtimeCharts();
             } else if (selectedValue === 'history') {
-                // Вариант "History" выбран
-                clearInterval(realtimeInterval);
                 updateHistoryCharts();
             }
         });
 
-        let realtimeInterval, historyInterval;
-
-        // Запускаем обновление данных и графиков в режиме Real-Time
-        realtimeInterval = setInterval(updateRealtimeCharts, 5000);
+        updateRealtimeCharts();
     </script>
 </body>
 
